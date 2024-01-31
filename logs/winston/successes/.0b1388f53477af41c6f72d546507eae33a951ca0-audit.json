@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "H:\\project\\shuvo.dev\\shuvo.dev_server\\logs\\winston\\successes\\.0b1388f53477af41c6f72d546507eae33a951ca0-audit.json",
+    "files": [
+        {
+            "date": 1706714394951,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_server\\logs\\winston\\successes\\phu-2024-31-01-21-success.log",
+            "hash": "65c41d05f8694fdbe35ebbd603ac5f9ba7b1d9ee18ee24328dd64e380f0efff4"
+        }
+    ],
+    "hashType": "sha256"
+}

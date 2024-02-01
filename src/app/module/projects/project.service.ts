@@ -5,14 +5,32 @@ import { IGenericResponse } from "../../../interfaces/common";
 import { paginationHelpers } from "../../../helpers/paginationHelper";
 import { projectSearchableFields } from "./project.constent";
 import { IProjectFilters } from "./project.interface";
+import { IUploadFile } from "../../../interfaces/file";
+import { FileUploadHelper } from "../../../helpers/FileUploadHelper";
+import { Request } from "express";
 
-const insertIntoDB = async (data:Projects):Promise<Projects>=> {
+// const insertIntoDB = async (data:Projects):Promise<Projects>=> {
 
+//   const result = await prisma.projects.create({
+//     data
+//   });
+//   return result;
+// };
+
+const insertIntoDB = async (req:Request) => {
+  const file = req.file as IUploadFile;
+  const uploadedImage = await FileUploadHelper.uploadToCloudinary(file);
+ 
+  if (uploadedImage) {
+      req.body.projectImageUrl = uploadedImage.secure_url
+  }
+  const dataToCreate = { ...req.body };
   const result = await prisma.projects.create({
-    data
+      data: dataToCreate,
   });
   return result;
 };
+
 
 const getAllFromDB = async (
   filters: IProjectFilters,

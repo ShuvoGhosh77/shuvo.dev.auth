@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\.dc35fcb70c0c2bb79a58b55806fdee2a4543a1c8-audit.json",
+    "files": [
+        {
+            "date": 1706796945324,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-01-02-20-error.log",
+            "hash": "5649fa1742def95e2931cfb3073d867acff225be7ceccc02b404daaf2b56e813"
+        },
+        {
+            "date": 1706800107618,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-01-02-21-error.log",
+            "hash": "304c4d454ba19830cd7dac5a748910fd5f69053af17697c9177dae984198f515"
+        },
+        {
+            "date": 1706806036794,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-01-02-22-error.log",
+            "hash": "e5e127897b48b77a67108e27b929081ea86ae0f19be26032396219e231ea2d32"
+        },
+        {
+            "date": 1706811761569,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-02-02-00-error.log",
+            "hash": "da2130921fb4ab93b706eefcee6b110ae300dc37e7ac6db4f8197f496dabf82d"
+        }
+    ],
+    "hashType": "sha256"
+}

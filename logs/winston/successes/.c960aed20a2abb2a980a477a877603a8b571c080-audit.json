@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\successes\\.c960aed20a2abb2a980a477a877603a8b571c080-audit.json",
+    "files": [
+        {
+            "date": 1706796945317,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\successes\\phu-2024-01-02-20-success.log",
+            "hash": "617e64f6b6b4b9c07076a6ba74e1d937c5d4e4ddc0a5bade526f14114647f706"
+        },
+        {
+            "date": 1706800107610,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\successes\\phu-2024-01-02-21-success.log",
+            "hash": "d9756f76e0e657d7ba57a94168e29f88e0804167cc4537b5e748a105453cf4b5"
+        },
+        {
+            "date": 1706806036716,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\successes\\phu-2024-01-02-22-success.log",
+            "hash": "472a8cb3be626cd8e275d4c52f5002de6647aa1c87d17dca052387c86532952a"
+        },
+        {
+            "date": 1706811761399,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\successes\\phu-2024-02-02-00-success.log",
+            "hash": "e8864a85d192daa50af1c34f9ab41af1c3a964fdebd098cc1d1dffa9a94a5a6d"
+        }
+    ],
+    "hashType": "sha256"
+}

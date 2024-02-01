@@ -24,3 +24,18 @@ model Projects {
 
   @@map("projects")
 }
+
+model User {
+  id        String   @id @default(uuid())
+  Email     String   @unique
+  Role      UserRoll   @default(Admin)
+  password  String
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("user")
+}
+
+enum UserRoll {
+  Admin
+}

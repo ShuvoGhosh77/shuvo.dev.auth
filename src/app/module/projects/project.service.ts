@@ -1,13 +1,13 @@
-import { Prisma, Projects } from "@prisma/client";
-import prisma from "../../../shared/prisma";
-import { IPaginationOptions } from "../../../interfaces/pagination";
-import { IGenericResponse } from "../../../interfaces/common";
-import { paginationHelpers } from "../../../helpers/paginationHelper";
-import { projectSearchableFields } from "./project.constent";
-import { IProjectFilters } from "./project.interface";
-import { IUploadFile } from "../../../interfaces/file";
-import { FileUploadHelper } from "../../../helpers/FileUploadHelper";
-import { Request } from "express";
+import { Prisma, Projects } from '@prisma/client';
+import prisma from '../../../shared/prisma';
+import { IPaginationOptions } from '../../../interfaces/pagination';
+import { IGenericResponse } from '../../../interfaces/common';
+import { paginationHelpers } from '../../../helpers/paginationHelper';
+import {  projectSearchableFields } from './project.constent';
+import { IProjectFilters } from './project.interface';
+import { IUploadFile } from '../../../interfaces/file';
+import { FileUploadHelper } from '../../../helpers/FileUploadHelper';
+import { Request } from 'express';
 
 // const insertIntoDB = async (data:Projects):Promise<Projects>=> {
 
@@ -17,20 +17,19 @@ import { Request } from "express";
 //   return result;
 // };
 
-const insertIntoDB = async (req:Request) => {
+const insertIntoDB = async (req: Request) => {
   const file = req.file as IUploadFile;
   const uploadedImage = await FileUploadHelper.uploadToCloudinary(file);
- 
+
   if (uploadedImage) {
-      req.body.projectImageUrl = uploadedImage.secure_url
+    req.body.projectImageUrl = uploadedImage.secure_url;
   }
   const dataToCreate = { ...req.body };
   const result = await prisma.projects.create({
-      data: dataToCreate,
+    data: dataToCreate,
   });
   return result;
 };
-
 
 const getAllFromDB = async (
   filters: IProjectFilters,
@@ -38,7 +37,6 @@ const getAllFromDB = async (
 ): Promise<IGenericResponse<Projects[]>> => {
   const { page, limit, skip } = paginationHelpers.calculatePagination(options);
   const { searchTerm, ...filterData } = filters;
-  console.log(options);
   const andConditons = [];
 
   if (searchTerm) {
@@ -91,7 +89,8 @@ const getAllFromDB = async (
   };
 };
 
+
 export const ProjectsService = {
   insertIntoDB,
-  getAllFromDB
+  getAllFromDB,
 };

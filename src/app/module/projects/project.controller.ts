@@ -3,7 +3,6 @@ import catchAsync from "../../../shared/catchAsync";
 import pick from "../../../shared/pick";
 import { projectFilterableFields } from "./project.constent";
 import sendResponse from "../../../shared/sendResponse";
-import { IProject } from "./project.interface";
 import httpStatus from 'http-status';
 import { paginationFields } from "../../../constants/pagination";
 import { ProjectsService } from "./project.service";
@@ -43,7 +42,7 @@ const getAllProject = catchAsync(async (req: Request, res: Response) => {
   );
  
 
-  sendResponse<IProject[]>(res, {
+  sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: "Semesters retrieved successfully !",

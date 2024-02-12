@@ -17,8 +17,9 @@ model Projects {
   liveProjectLink    String
   projectImageUrl    String
   projectDescription String
-  githubClientLink   String
-  githubServerLink   String
+  githubClientLink   String?
+  githubServerLink   String?
+  tag                String?
   createdAt          DateTime @default(now()) @map("created_at")
   updatedAt          DateTime @updatedAt @map("updated_at")
 

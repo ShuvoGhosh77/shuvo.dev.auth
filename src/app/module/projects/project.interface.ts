@@ -8,6 +8,7 @@ export type IProject = {
   projectDescription:string;
   githubClientLink?:string;
   githubServerLink?:string;
+  tag?:string
 };
 
 
@@ -15,4 +16,5 @@ export type IProject = {
 export type IProjectFilters = {
   searchTerm?: string;
   projectName?: string;
+  tag?:string
 };

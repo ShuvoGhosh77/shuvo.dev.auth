@@ -3,19 +3,11 @@ import prisma from '../../../shared/prisma';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { IGenericResponse } from '../../../interfaces/common';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
-import {  projectRelationalFields, projectSearchableFields } from './project.constent';
+import {  projectSearchableFields } from './project.constent';
 import { IProjectFilters } from './project.interface';
 import { IUploadFile } from '../../../interfaces/file';
 import { FileUploadHelper } from '../../../helpers/FileUploadHelper';
 import { Request } from 'express';
-
-// const insertIntoDB = async (data:Projects):Promise<Projects>=> {
-
-//   const result = await prisma.projects.create({
-//     data
-//   });
-//   return result;
-// };
 
 const insertIntoDB = async (req: Request) => {
   const file = req.file as IUploadFile;

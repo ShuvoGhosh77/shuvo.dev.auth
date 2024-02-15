@@ -8,19 +8,6 @@ import { paginationFields } from "../../../constants/pagination";
 import { ProjectsService } from "./project.service";
 
 
-
-// const createProject = catchAsync(async (req: Request, res: Response) => {
-//   const { ...projectData } = req.body;
-//   const result = await ProjectsService.insertIntoDB(
-//     projectData
-//   );
-//   sendResponse<IProject>(res, {
-//     statusCode: httpStatus.OK,
-//     success: true,
-//     message: 'Academic Department created successfully',
-//     data: result,
-//   });
-// });
 const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
   
   const result = await ProjectsService.insertIntoDB(req);
@@ -45,7 +32,7 @@ const getAllProject = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: "Semesters retrieved successfully !",
+    message: "project retrieved successfully !",
     meta: result.meta,
     data: result.data,
   });

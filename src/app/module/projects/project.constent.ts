@@ -6,11 +6,3 @@ export const projectFilterableFields = [
   'projectType',
   'tag'
 ];
-
-
-
-export const projectRelationalFields: string[] = [
-  'projectType',
-  'tag'
-];
-

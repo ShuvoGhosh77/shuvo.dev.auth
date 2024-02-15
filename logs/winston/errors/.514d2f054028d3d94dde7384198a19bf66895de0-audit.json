@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "H:\\project\\shuvo.dev\\New folder\\shuvo.dev_auth\\logs\\winston\\errors\\.514d2f054028d3d94dde7384198a19bf66895de0-audit.json",
+    "files": [
+        {
+            "date": 1708006156178,
+            "name": "H:\\project\\shuvo.dev\\New folder\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-15-02-20-error.log",
+            "hash": "457b760dcbf27cb40457e91f4936b29085e2ae92d35fb5732f383e2af262023c"
+        }
+    ],
+    "hashType": "sha256"
+}

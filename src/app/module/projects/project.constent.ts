@@ -1,9 +1,4 @@
-export const projectSearchableFields = [
-  'projectName',
-  'projectType',
-  'tag'
-
-];
+export const projectSearchableFields: string[] = ['searchTerm','projectName','projectType','tag'];
 
 export const projectFilterableFields = [
   'searchTerm',
@@ -19,7 +14,3 @@ export const projectRelationalFields: string[] = [
   'tag'
 ];
 
-export const projectRelationalFieldsMapper: { [key: string]: string } = {
-  projectType:'projectType',
-  tag: 'tag'
-};

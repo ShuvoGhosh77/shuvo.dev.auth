@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\p\\m\\New folder\\shuvo.dev_auth\\logs\\winston\\errors\\.ca09b121278fd085179c59845c3271f85d1295dc-audit.json",
+    "files": [
+        {
+            "date": 1707805087169,
+            "name": "F:\\p\\m\\New folder\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-13-02-12-error.log",
+            "hash": "eeaeb93adb810f2889c85b4a85281438552205e138bfda0d41ddabc72c106c17"
+        },
+        {
+            "date": 1707972099938,
+            "name": "F:\\p\\m\\New folder\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-15-02-10-error.log",
+            "hash": "48f8dd2ecf933186a292d126706093aa81c9ac8093d5e8827e86d72262bb1511"
+        },
+        {
+            "date": 1707978033654,
+            "name": "F:\\p\\m\\New folder\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-15-02-12-error.log",
+            "hash": "4fd70ea2f81f38b4f527e5caf741881fccbb9b783bebcb6384760fdd8c902091"
+        }
+    ],
+    "hashType": "sha256"
+}

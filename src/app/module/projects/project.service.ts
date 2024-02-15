@@ -3,7 +3,7 @@ import prisma from '../../../shared/prisma';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { IGenericResponse } from '../../../interfaces/common';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
-import {  projectSearchableFields } from './project.constent';
+import {  projectRelationalFields, projectSearchableFields } from './project.constent';
 import { IProjectFilters } from './project.interface';
 import { IUploadFile } from '../../../interfaces/file';
 import { FileUploadHelper } from '../../../helpers/FileUploadHelper';

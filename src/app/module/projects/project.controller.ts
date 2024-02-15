@@ -14,7 +14,7 @@ const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
   sendResponse(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'Project created successfully',
+      message: 'Project created successfully for show',
       data: result
   });
 });

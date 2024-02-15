@@ -46,6 +46,7 @@ const getAllFromDB = async (
     andConditons.push({
       AND: Object.keys(filterData).map(key => ({
         [key]: {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           equals: (filterData as any)[key],
         },
       })),

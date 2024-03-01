@@ -6,84 +6,9 @@
     "auditLog": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\.dc35fcb70c0c2bb79a58b55806fdee2a4543a1c8-audit.json",
     "files": [
         {
-            "date": 1706796945324,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-01-02-20-error.log",
-            "hash": "5649fa1742def95e2931cfb3073d867acff225be7ceccc02b404daaf2b56e813"
-        },
-        {
-            "date": 1706800107618,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-01-02-21-error.log",
-            "hash": "304c4d454ba19830cd7dac5a748910fd5f69053af17697c9177dae984198f515"
-        },
-        {
-            "date": 1706806036794,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-01-02-22-error.log",
-            "hash": "e5e127897b48b77a67108e27b929081ea86ae0f19be26032396219e231ea2d32"
-        },
-        {
-            "date": 1706811761569,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-02-02-00-error.log",
-            "hash": "da2130921fb4ab93b706eefcee6b110ae300dc37e7ac6db4f8197f496dabf82d"
-        },
-        {
-            "date": 1706938749107,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-03-02-11-error.log",
-            "hash": "4eeb7265ab52d524b097b14e574de572c45132be897ba7c3af44d260d64da107"
-        },
-        {
-            "date": 1706940336519,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-03-02-12-error.log",
-            "hash": "d1165271905feb57151f1f502ea8b9a754a1a971b2a97718b5f1af3343220bbc"
-        },
-        {
-            "date": 1707019750331,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-04-02-10-error.log",
-            "hash": "75103e924a41387e4efae19f3f79394ad2b1de59a3b9d4b8525bc1e6bb8900bb"
-        },
-        {
-            "date": 1707025536870,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-04-02-11-error.log",
-            "hash": "39828a81b78abd118f6dac7a7dfdf195b9554cb60c27b10e7bcd49f5da7f8a1d"
-        },
-        {
-            "date": 1707406603798,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-08-02-21-error.log",
-            "hash": "6eaebf2771d655517e909a674fb46a72eb0a22ce77b1c28c83a2b2a6b7fb3596"
-        },
-        {
-            "date": 1707415176005,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-08-02-23-error.log",
-            "hash": "5a3a17cee4efa72750b39ca0ed9138123ebb9f9698320b5ed6af81a26f1a88a8"
-        },
-        {
-            "date": 1707578118076,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-10-02-21-error.log",
-            "hash": "1da6e93e4b314f4b64ddd9504d1ffe7a025d2e09ebc647fe787f83030ba9ad61"
-        },
-        {
-            "date": 1707586099537,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-10-02-23-error.log",
-            "hash": "ded3b0592269557b060785c7caebb63151ad3c10214e7901e901f7e7053a6a47"
-        },
-        {
-            "date": 1707628055824,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-11-02-11-error.log",
-            "hash": "8df2e176c35070ddbfb56e7cdb7a73413e7cb7ed62d32cd93d917ce3071b89ef"
-        },
-        {
-            "date": 1707748834838,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-12-02-20-error.log",
-            "hash": "11428c0371e523d5579395c5e36b137065bfe4174e3b97b62ed7047eefc0430b"
-        },
-        {
-            "date": 1707753880456,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-12-02-22-error.log",
-            "hash": "be68f76a12c6ab8802d1c52589497a7c68f4aee774a19f217fb798e8dbdc3b2e"
-        },
-        {
-            "date": 1707761960649,
-            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-13-02-00-error.log",
-            "hash": "95b091838b0c0d299b82875085735aedc473fb66ab02e3a5b1e0e8d54b71f2ca"
+            "date": 1709316852201,
+            "name": "H:\\project\\shuvo.dev\\shuvo.dev_auth\\logs\\winston\\errors\\phu-2024-02-03-00-error.log",
+            "hash": "6ec517b0090ba767f5505678ad450c011763c8c88994672715229e3093d1ca2c"
         }
     ],
     "hashType": "sha256"

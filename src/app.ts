@@ -8,7 +8,7 @@ import cookieParser from 'cookie-parser';
 
 const app: Application = express();
 const corsOptions = {
-  origin: 'https://shuvo-dev-nine.vercel.app',
+  origin: 'https://shuvo-dev-nine.vercel.app/',
 };
 
 app.use(cors(corsOptions));
